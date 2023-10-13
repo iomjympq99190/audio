@@ -1,0 +1,292 @@
+*{margin: 0px;padding: 0px;color: #6A6A7E;}
+#w{
+	width: 100%;
+	height: 2325px;
+	background: #F1F0EE;
+	position: absolute;
+}
+#da{
+	width: 950px;
+	height: 2188px;
+	margin: auto;
+	padding: 30px;
+	margin-top:30px;
+	padding-bottom:0px;
+	background: white;
+}
+#s{
+	width: 100%;
+	height: 80px;
+	margin: auto;
+	margin-top: 8px;
+	background: white;
+	position: relative;
+}
+/*————————————————————————第二部分开始——————————————————————————————————————————*/
+#er{
+	/*width: 940px;*/
+	height: 440px;
+	position: relative;
+}
+#er>img{
+	width: 950px;
+	/*height: 440px;*/
+	position: absolute;
+}
+
+#lbu{
+	position: absolute;
+	list-style: none;
+	bottom:37px;
+	left: 380px;
+	height: 30px;
+	width: 200px;
+	/*background: white;*/
+	line-height: 30px;
+}
+#lbu>li{
+	width: 10px;
+	transition: 1s;
+	height: 10px;
+	border-radius: 10px;
+	border: 2px solid white;
+	display: inline-block;
+}
+.te{
+	width: 50px;
+	background: #fff;
+}
+/*————————————————————————第二部分结束——————————————————————————————————————————*/
+
+
+
+#u1{
+	position: absolute;
+	width: 500px;
+	height: 40px;
+	float: right;
+	margin-left: 440px;
+	margin-top: 10px;
+	line-height: 40px;
+	background: white;
+}
+#u1>li{
+	float: left;
+	width: 20%;
+	height: 40px;
+	text-align: center;
+	color: gray;
+	transition: 0s;
+	background: white;
+	border-right: 1px rgba(128,128,128,0.1) solid;
+}
+a{
+	text-decoration: none;
+	color: gray;
+	background: white;
+	transition: 0s;
+}
+li{
+	list-style: none;
+	
+}
+#san{
+	width: 70%;
+	height: 400px;
+	float: left;
+	margin-top: 5px;
+	position: relative;
+	background: white;
+}
+.san{
+	width: 195px;
+	margin-left:33px;
+	height: 100%;
+	float: left;
+	word-spacing: 10px;
+	position: relative;
+}
+#si{
+	width: 240px;
+	height: 500px;
+	float: right;
+	/*background: saddlebrown;*/
+	margin-top: 5px;
+	position: relative;
+	
+}
+.si{
+	width: 95%;
+	height:50%;
+	position: absolute;
+	word-spacing: 10px;
+	z-index: 1;
+}
+
+#wu{
+	width: 70%;
+	height: 180px;
+	float: left;
+	/*background: saddlebrown;*/
+	margin-top: -70px;
+	word-spacing: 10px;
+	position: relative;
+	overflow: hidden;
+}
+#wu>img{
+	width: 145px;
+	height: 120px;
+	margin-left: 10px;
+	margin-top:13px;
+}
+.wx{
+	width: 100%;
+	height: 33px;
+	/*background: sandybrown;*/
+	word-spacing: 150px;
+	text-indent: 40px;
+	/*margin-top: px;*/
+	line-height: 15px;
+	font-size: 14px;
+}
+#liu{
+	width: 1010px;
+	height: 73px;
+	margin-left: -30px;
+	position: relative;
+	margin-top: 80px;
+	background: url(../images/footer_22.png);
+}
+#u2{
+	width:360px;
+	height: 13px;
+	margin-top: 27px;
+	/*background: saddlebrown;*/
+	position: absolute;
+	float: left;
+	margin-left: 40px;
+}
+#u2>li{
+	float: left;
+	width: 20%;
+	height: 16px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	font-weight: lighter;
+	font-family: "黑体";
+	border-right: 1px rgba(248,248,242,0.5) solid;
+}
+.san>img{
+	transition: 1s;
+}
+
+
+
+
+
+#ezj{
+	width: 100%;
+	height: 1010px;
+	margin-top: 570px;
+	position: relative;
+}
+.enr{
+	width: 460px;
+	height: 325px;
+	/*background: darkblue;*/
+	float: left;
+	position: absolute;
+}
+.enr>div{
+	width:460px;
+	height: 200px;
+}
+
+
+
+/*————————————动画————————————————————*/
+#u1>li:hover{
+	background:#35A5ED;
+}
+#u1>li:hover a{
+	text-decoration: underline;
+	background: #35A5ED;
+	
+}
+#u1>li:hover a{
+	color: white;
+}
+
+.d3:hover{
+	color: dodgerblue;
+	text-shadow: 0px 0px 10px #1AB9F2;
+}
+.d5:hover{
+	color:#1AB9F2;
+	text-shadow: 0px 0px 15px #1AB9F2;
+}
+.d5:hover span{
+	color:#1AB9F2;
+}
+.san>img:hover{
+	box-shadow: 10px 10px 20px #35A5ED;
+	border-radius:20px;
+}
+#wu>img:hover{
+	box-shadow: 0px 0px 20px #35A5ED;
+}
+
+.yy>q:hover{
+	text-shadow: 0px 0px 15px #1AB9F2;
+	color:#1AB9F2;
+	
+}
+.d0:hover{
+	text-shadow: 0px 0px 10px #1AB9F2;
+}
+
+.ys>img:hover{
+	width: 173px;
+	height: 125px;
+}
+.enr>div:hover{
+	transform: scale(1.1,1.1);
+}
+p:hover{
+	color: #1598F0;
+	text-shadow: 0px 0px 20px #1598F0;
+	
+}
+
+
+
+/*——————————————————右边————————————————*/
+#sy{
+	width: 710px;
+	height: 800px;
+	/*background: darkblue;*/
+	margin-top: 5px;
+	margin-left: 345px;
+	position: absolute;
+
+}
+#sy>p{
+	color: #292929;
+	font-size: 14px;
+}
+#syb{
+	width: 100px;
+	height: 45px;
+	background: #1598F0;
+	border-radius:7px;
+	margin-left: 440px;
+	text-align: center;
+	line-height: 45px;
+	color: white;
+	letter-spacing: 6px;
+	font-size: 18px;
+}
+
+
+
