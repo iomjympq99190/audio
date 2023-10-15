@@ -166,7 +166,7 @@ li{
 	float: left;
 	margin-left: 40px;
 }
-#u2>li{
+#u2>a>li{
 	float: left;
 	width: 20%;
 	height: 16px;
